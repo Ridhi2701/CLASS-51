@@ -1,0 +1,35 @@
+h1{
+    color:brown;
+}
+/*
+*{
+    border:solid;
+}*/
+
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+    /*leave space between elements in the page*/
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*leave space evenly between different elements*/
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    /* itsngoing to place elements at end of the page*/
+}
+
+p,h2{
+    text-align:center;
+}
+
+body{
+    background-color: #f1f1f1;
+}
